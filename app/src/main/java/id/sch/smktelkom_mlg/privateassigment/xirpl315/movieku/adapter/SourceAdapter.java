@@ -12,7 +12,8 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
-import javax.xml.transform.Source;
+import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.R;
+import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.model.Source;
 
 /**
  * Created by KEVIN_E15 on 5/14/2017.

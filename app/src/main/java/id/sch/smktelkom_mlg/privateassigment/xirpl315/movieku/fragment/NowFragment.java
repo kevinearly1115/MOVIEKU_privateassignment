@@ -1,6 +1,5 @@
 package id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.fragment;
 
-
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -17,14 +16,17 @@ import com.google.gson.Gson;
 
 import java.util.ArrayList;
 
-import javax.xml.transform.Source;
-
 import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.R;
 import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.adapter.SourceAdapter;
+import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.model.Source;
+import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.model.SourcesResponse;
+import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.service.GsonGetRequest;
+import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.service.VolleySingleton;
 
 /**
- * A simple {@link Fragment} subclass.
+ * Created by KEVIN_E15 on 5/14/2017.
  */
+
 public class NowFragment extends Fragment {
     ArrayList<Source> mList = new ArrayList<>();
     SourceAdapter mAdapter;
@@ -54,7 +56,7 @@ public class NowFragment extends Fragment {
     }
 
     private void downloadDataSource() {
-        String url = "https://api.themoviedb.org/3/movie/now_playing?api_key=d4bee1442fda04e0b421566f1a54e4ae";
+        String url = "https://api.themoviedb.org/3/movie/now_playing?api_key=e30cabb1e91df79b7f59ff56d1d5908b&language=en-US&page=1\n";
 
         GsonGetRequest<SourcesResponse> myRequest = new GsonGetRequest<SourcesResponse>
                 (url, SourcesResponse.class, null, new Response.Listener<SourcesResponse>() {

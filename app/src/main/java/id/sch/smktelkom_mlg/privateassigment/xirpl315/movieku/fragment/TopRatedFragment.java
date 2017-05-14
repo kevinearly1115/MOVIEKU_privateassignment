@@ -18,9 +18,19 @@ import com.google.gson.Gson;
 import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.R;
+import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.adapter.SourceAdapter;
+import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.model.Source;
+import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.model.SourcesResponse;
+import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.service.GsonGetRequest;
+import id.sch.smktelkom_mlg.privateassigment.xirpl315.movieku.service.VolleySingleton;
 
 /**
  * A simple {@link Fragment} subclass.
+ * Activities that contain this fragment must implement the
+ * {@link TopRatedFragment.OnFragmentInteractionListener} interface
+ * to handle interaction events.
+ * Use the {@link TopRatedFragment#newInstance} factory method to
+ * create an instance of this fragment.
  */
 public class TopRatedFragment extends Fragment {
     ArrayList<Source> mList = new ArrayList<>();
@@ -51,7 +61,7 @@ public class TopRatedFragment extends Fragment {
     }
 
     private void downloadDataSource() {
-        String url = "https://api.themoviedb.org/3/movie/top_rated?api_key=d4bee1442fda04e0b421566f1a54e4ae";
+        String url = "https://api.themoviedb.org/3/movie/top_rated?api_key=e30cabb1e91df79b7f59ff56d1d5908b&language=en-US&page=1\n";
 
         GsonGetRequest<SourcesResponse> myRequest = new GsonGetRequest<SourcesResponse>
                 (url, SourcesResponse.class, null, new Response.Listener<SourcesResponse>() {
