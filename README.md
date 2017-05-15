@@ -7,8 +7,8 @@
 <h3>Identitas</h3><br>
 <p>Nama    : Kevin Early Eliansyah</p><br>
 <p>Kelas   : XI RPL 3</p><br>
-<p>AAbsen  : 15</p><br>
-<p>NISN    : </p><br>
+<p>Absen   : 15</p><br>
+<p>NISN    : <b>0002770464</b> </p><br>
 <p>NIS     : 4735/1454.070</p><br>
 <p>Sekolah : SMK Telkom Malang</p><br>
 
@@ -32,6 +32,7 @@
 <p>hanya dapat mengeluarkan 3 jenis macam saja : Now Playing, Top Rated, Up Coming</p><br>
 
 <h3<Another Libray</h3><br>
+
 <p>Butter Knife</p><br>
 
 <h3>ScreenShot</h3>
