@@ -22,17 +22,22 @@
 <p>SQLite</p><br>
 
 <h3>Deskripsi</h3><br><br>
-
+<p>Aplikasi ini dapat membantu kita untuk melihat detail dari film-film yang berkelas dunia. Dalam aplikasi ini disediakan fitur untuk melihat Film dengan rating tertinggi menurut voting di seluruh dunia , kemudian juga ada list untuk film yang sekarang sedang tayang , serta adanya film yang akan release ke depannya. Aplikasi MOVIEKU ini terbilang mudah digunakan karena desain yang simple dan free.</p>
 
 <h3>Kelebihan</h3><br>
 <p>Tidak berbayar atau free</p><br>
 <p>Mudah digunakan<p><br>
 
-<h3>Kekurangan<h3><br>
-<p>hanya dapat mengeluarkan 3 jenis macam saja : Now Playing, Top Rated, Up Coming</p><br>
+<h3>Kekurangan<h3>
+<p>hanya dapat mengeluarkan 3 jenis macam saja : Now Playing, Top Rated, Up Coming</p>
 
-<h3<Another Libray</h3><br>
+<h3>Another Libray</h3>
 
 <p>Butter Knife</p><br>
 
-<h3>ScreenShot</h3>
+<h3>ScreenShot</h3
+[![Screenshot_20170613-100429.png](https://s4.postimg.org/yruwl3s19/Screenshot_20170613-100429.png)](https://postimg.org/image/vl0d1h7l5/)
+
+[![Screenshot_20170613-100443.png](https://s13.postimg.org/3otdh365z/Screenshot_20170613-100443.png)](https://postimg.org/image/53uy5t78z/)
+
+[![Screenshot_20170613-100450.png](https://s22.postimg.org/ta2u2uqdd/Screenshot_20170613-100450.png)](https://postimg.org/image/m6uyn8kxp/)
