@@ -28,7 +28,7 @@
 <p>Tidak berbayar atau free</p><br>
 <p>Mudah digunakan<p><br>
 
-<h3>Kekurangan<h3>
+<h3>Kekurangan</h3>
 <p>hanya dapat mengeluarkan 3 jenis macam saja : Now Playing, Top Rated, Up Coming</p>
 
 <h3>Another Libray</h3>
